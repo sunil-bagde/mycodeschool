@@ -3,7 +3,7 @@
 -   [x] Selection sort
 -   [x] Bubble sort
 -   [x] Insertion sort
--   [ ] Merge sort
+-   [x] Merge sort
 -   [ ] Quick sort
 -   [ ] Counting sort
 -   [ ] Redix sort
