@@ -24,4 +24,4 @@ function insertionSort(nums) {
 const nums = [2, 7, 4, 1, 5, 3];
 const result = insertionSort(nums, nums.length);
 console.log("result", result);
-expect(nums, [1, 2, 3, 4, 5, 7]);
+expect(result, [1, 2, 3, 4, 5, 7]);
