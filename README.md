@@ -4,7 +4,7 @@
 -   [x] Bubble sort
 -   [x] Insertion sort
 -   [x] Merge sort
--   [ ] Quick sort
+-   [x] Quick sort
 -   [ ] Counting sort
 -   [ ] Redix sort
 -   [ ] Heap sort
