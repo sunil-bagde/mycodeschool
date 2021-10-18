@@ -7,7 +7,7 @@
 -   [x] Insertion sort
 -   [x] Merge sort
 -   [x] Quick sort
--   [ ] Counting sort
+-   [x] Counting sort
 -   [ ] Redix sort
 -   [ ] Heap sort
 -   [ ] Bucket sort
