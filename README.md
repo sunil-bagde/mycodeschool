@@ -1,5 +1,7 @@
 # mycodeschool
 
+## Sorting
+
 -   [x] Selection sort
 -   [x] Bubble sort
 -   [x] Insertion sort

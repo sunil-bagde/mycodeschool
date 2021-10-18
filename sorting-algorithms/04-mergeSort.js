@@ -6,8 +6,11 @@ function merge(a, start, mid, end) {
     let j = mid + 1;
     let resultPos = 0;
     while (i <= mid && j <= end) {
-        if (a[i] <= a[j]) result[resultPos++] = a[i++];
-        else result[resultPos++] = a[j++];
+        if (a[i] <= a[j]) {
+            result[resultPos++] = a[i++];
+        } else {
+            result[resultPos++] = a[j++];
+        }
     }
     // flush remaining elements into result
     while (i <= mid) result[resultPos++] = a[i++];

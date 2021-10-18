@@ -1,3 +1,7 @@
+/*
+https://en.wikipedia.org/wiki/Selection_sort
+*/
+
 function selectionSort(nums, n) {
   for (let i = 0; i < n - 1; i++) {
     let min = i;
