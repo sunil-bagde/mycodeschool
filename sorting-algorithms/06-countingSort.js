@@ -14,6 +14,7 @@ function countingSort(array, size) {
     for (let i = 0; i < size; i++) {
         count[array[i]]++;
     }
+    // Store the cummulative count of each array
     for (let i = 1; i <= max; i++) {
         count[i] += count[i - 1];
     }
