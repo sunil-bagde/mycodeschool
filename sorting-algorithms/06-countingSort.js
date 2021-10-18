@@ -1,33 +1,28 @@
 const { expect } = require("../assert");
 function countingSort(array, size) {
-    let output = [];
-    // find the largest element
+    // find max element
     let max = array[0];
-    for (let i = 1; i < size; i++) {
+    for (let i = 0; i < size; i++) {
         max = Math.max(array[i], max);
     }
-    // Initialize count array with all zeros.
+    //create auxiliary array with default 0 value
     let count = [];
-    for (let i = 0; i <= max; ++i) {
+    for (let i = 0; i <= max; i++) {
         count[i] = 0;
     }
-
-    // store the count of each element;
-
+    // count each element
     for (let i = 0; i < size; i++) {
         count[array[i]]++;
     }
-
-    // cumulative count
     for (let i = 1; i <= max; i++) {
         count[i] += count[i - 1];
     }
-    //
+    let output = [];
+
     for (let i = size - 1; i >= 0; i--) {
         output[count[array[i]] - 1] = array[i];
         count[array[i]]--;
     }
-    // copy to array (origin)
     for (let i = 0; i < size; i++) {
         array[i] = output[i];
     }
