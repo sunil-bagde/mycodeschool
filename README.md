@@ -8,6 +8,6 @@
 -   [x] Merge sort
 -   [x] Quick sort
 -   [x] Counting sort
--   [ ] Radix sort
+-   [x] Radix sort
 -   [ ] Heap sort
 -   [ ] Bucket sort
